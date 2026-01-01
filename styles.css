@@ -1,0 +1,44 @@
+/* Reset body spacing */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header container */
+.site-header {
+  width: 100%;
+}
+
+/* Top row: logo + business name */
+.top-row {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+/* Logo sizing */
+.logo {
+  height: 60px;
+  margin-right: 16px;
+}
+
+/* Business name takes remaining space */
+.business-name {
+  font-size: 2rem;
+  flex-grow: 1;
+}
+
+/* Value bar below header */
+.value-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222; /* change to your brand color */
+  color: #fff;
+  padding: 12px 24px;
+  font-weight: bold;
+}
+
+/* Optional: main content spacing */
+main {
+  padding: 24px;
+}
