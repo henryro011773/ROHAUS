@@ -18,7 +18,8 @@ body {
 
 /* Logo sizing */
 .logo {
-  height: 60px;
+  height: 100px;   /* adjust the height to your preference */
+  width: auto;     /* keeps aspect ratio */
   margin-right: 16px;
 }
 
