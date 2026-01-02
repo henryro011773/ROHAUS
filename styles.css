@@ -34,7 +34,7 @@ body {
   margin: 0;               /* remove default margin */
   font-size: 8rem;         /* adjust for desired size */
   color: #000;
-  margin-top: 30px;   /* pushes text down relative to logo */
+  margin-top: 160px;   /* pushes text down relative to logo */
   margin-bottom: 0px;
 }
 
