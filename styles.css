@@ -28,19 +28,23 @@ body {
 
 /* Business name takes remaining space */
 .business-name {
-  flex-grow: 1;            /* fill remaining width */
-  text-align: right;       /* right-justify text */
+  flex-grow: 1;            /* fill remaining width next to logo */
+  text-align: right;       /* right-justify the text */
   font-weight: normal;     /* remove bold */
   margin: 0;               /* remove default margin */
-  font-size: 8rem;         /* adjust for desired size */
+  padding: 0;              /* remove any padding */
+  font-size: 8rem;         /* adjust size as needed */
   color: #000;
-  
-  /* Move text slightly down without moving the logo */
-  position: relative;
-  top: 10px;               /* nudge text down by 10px; adjust as needed */
 
-  /* Optional: keep bottom spacing consistent to value bar */
-  padding-bottom: 10px;    /* small gap below text */
+  /* Remove extra vertical space from line box */
+  line-height: 1;          /* ensures highlight and spacing are tight */
+
+  /* Fine-tune vertical alignment without moving logo */
+  position: relative;
+  top: 5px;                /* small nudge down; adjust as needed */
+
+  /* Gap below text to value bar */
+  padding-bottom: 10px;    /* keeps spacing consistent with logo */
 }
 
 /* Value bar below header */
