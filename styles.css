@@ -37,14 +37,40 @@ body {
 /* Value bar below header */
 .value-bar {
   display: flex;
-  justify-content: space-evenly; /* words span full width */
   width: 100%;
   padding: 6px 40px;
-  background-color: #156082; /* adjust to your brand */
+  background-color: #000; /* or your brand color */
   color: #fff;
-  font-weight: normal;
-  font-size: 3rem;
+  font-weight: normal;    /* remove bold */
   box-sizing: border-box;
+  align-items: center;    /* vertical centering */
+}
+
+/* First word flush left */
+.left-word {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  letter-spacing: 0.08em; /* optional spacing between letters */
+}
+
+/* Middle word centered */
+.center-word {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.08em;
+}
+
+/* Last word flush right */
+.right-word {
+  flex: 1;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  letter-spacing: 0.08em;
 }
 
 /* Each word gets equal space */
