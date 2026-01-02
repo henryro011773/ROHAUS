@@ -7,37 +7,38 @@ body {
 /* Header container */
 .site-header {
   width: 100%;
+  /* Small white space at top */
+  padding-top: 10px;  /* controls tiny top gap */
+  box-sizing: border-box;
 }
 
 /* Top row: logo + business name */
 .top-row {
   display: flex;
   align-items: flex-end; /* align bottoms of logo & text */
-  padding: 10px 20px;
+  padding: 0 20px 10px 20px; /* top:0 (white space handled by .site-header), bottom:10px gap before value-bar */
 }
 
 /* Logo sizing */
 .logo {
-  height: 250px;   /* adjust the height to your preference */
-  width: auto;     /* keeps aspect ratio */
-  margin-right: 16px;
+  height: 250px;   /* adjust height as needed */
+  width: auto;     /* maintain aspect ratio */
+  margin-right: 16px; /* horizontal gap between logo & business name */
 }
 
 /* Business name takes remaining space */
 .business-name {
   flex-grow: 1;            /* fill remaining width */
   text-align: right;       /* right-justify text */
-  font-weight: normal;     /* removes bold */
-
-
-  /* margin: 0;
-  padding-bottom: 60px;    fine-tune vertical alignment */
-
-
-  margin-top: 10px; /* pushes text down */
-  margin-bottom: 0; /* keep bottom aligned */
-  font-size: 8rem;
+  font-weight: normal;     /* remove bold */
+  margin: 0;               /* remove default margin */
+  font-size: 8rem;         /* adjust for desired size */
   color: #000;
+
+  /* Align bottom of text to logo while leaving small gap above value bar */
+  display: flex;
+  align-items: flex-end;  /* bottom-align inside flex box */
+  padding-bottom: 10px;   /* same gap as logo to value-bar */
 }
 
 /* Value bar below header */
@@ -45,12 +46,12 @@ body {
   display: flex;
   width: 100%;
   padding: 6px 40px;
-  background-color: #156082; /* or your brand color */
+  background-color: #156082; /* brand color */
   color: #fff;
-  font-weight: normal;    /* remove bold */
+  font-weight: normal;       /* remove bold */
   font-size: 2rem;
   box-sizing: border-box;
-  align-items: center;    /* vertical centering */
+  align-items: center;       /* vertical centering */
 }
 
 /* First word flush left */
@@ -59,7 +60,7 @@ body {
   text-align: left;
   display: flex;
   justify-content: flex-start;
-  letter-spacing: 0.2em; /* optional spacing between letters */
+  letter-spacing: 0.2em;
 }
 
 /* Middle word centered */
@@ -80,13 +81,13 @@ body {
   letter-spacing: 0.2em;
 }
 
-/* Each word gets equal space */
+/* Optional: evenly distribute letters within each word */
 .distributed-word {
   flex: 1;
   display: flex;
   justify-content: space-evenly; /* letters spread */
   white-space: nowrap;
-  letter-spacing: 0.2em;           /* add horizontal space between letters */
+  letter-spacing: 0.2em;
 }
 
 /* Small, consistent separation between words */
