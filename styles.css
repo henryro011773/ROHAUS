@@ -29,7 +29,7 @@ body {
   text-align: right;       /* right-justify text */
   font-weight: normal;     /* removes bold */
   margin: 0;
-  padding-bottom: 20px;    /* fine-tune vertical alignment */
+  padding-bottom: 60px;    /* fine-tune vertical alignment */
   font-size: 8rem;
   color: #000;
 }
