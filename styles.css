@@ -40,6 +40,7 @@ body {
   /* Fine-tune vertical alignment without moving logo */
   position: relative;
   top: 5px;                /* small nudge down; adjust as needed */
+  white-space: nowrap;     /* KEEP ON SINGLE LINE */
 }
 
 /* Value bar below header */
