@@ -42,6 +42,7 @@ body {
   background-color: #000; /* or your brand color */
   color: #fff;
   font-weight: normal;    /* remove bold */
+  font-size: 2rem;
   box-sizing: border-box;
   align-items: center;    /* vertical centering */
 }
@@ -52,7 +53,7 @@ body {
   text-align: left;
   display: flex;
   justify-content: flex-start;
-  letter-spacing: 0.08em; /* optional spacing between letters */
+  letter-spacing: 0.2em; /* optional spacing between letters */
 }
 
 /* Middle word centered */
@@ -61,7 +62,7 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.2em;
 }
 
 /* Last word flush right */
@@ -70,7 +71,7 @@ body {
   text-align: right;
   display: flex;
   justify-content: flex-end;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.2em;
 }
 
 /* Each word gets equal space */
