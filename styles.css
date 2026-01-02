@@ -39,7 +39,7 @@ body {
 
   /* Fine-tune vertical alignment without moving logo */
   position: relative;
-  top: 10px;                /* small nudge down; adjust as needed */
+  top: 13px;                /* small nudge down; adjust as needed */
   white-space: nowrap;     /* KEEP ON SINGLE LINE */
 }
 
