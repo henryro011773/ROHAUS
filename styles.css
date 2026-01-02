@@ -38,7 +38,7 @@ body {
   /* Align bottom of text to logo while leaving small gap above value bar */
   display: flex;
   align-items: flex-end;  /* bottom-align inside flex box */
-  padding-bottom: 10px;   /* same gap as logo to value-bar */
+  padding-top: 100px;   /* same gap as logo to value-bar */
 }
 
 /* Value bar below header */
