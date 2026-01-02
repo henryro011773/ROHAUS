@@ -12,8 +12,8 @@ body {
 /* Top row: logo + business name */
 .top-row {
   display: flex;
-  align-items: center;
-  padding: 16px;
+  align-items: flex-end; /* align bottoms of logo & text */
+  padding: 10px 20px;
 }
 
 /* Logo sizing */
@@ -25,10 +25,12 @@ body {
 
 /* Business name takes remaining space */
 .business-name {
-  flex-grow: 1;              /* take all remaining width */
-  font-size: 10em;            /* adjust size as needed */
-  color: #156082;            /* change to match your logo color */
+  flex-grow: 1;            /* fill remaining width */
+  text-align: right;       /* right-justify text */
   margin: 0;
+  padding-bottom: 4px;     /* fine-tune vertical alignment */
+  font-size: 6rem;
+  color: #fff;
 }
 
 /* Value bar below header */
