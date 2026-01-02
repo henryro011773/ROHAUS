@@ -53,7 +53,7 @@ body {
   display: flex;
   justify-content: space-evenly; /* letters spread */
   white-space: nowrap;
-  letter-spacing: 1em;           /* add horizontal space between letters */
+  letter-spacing: 0.2em;           /* add horizontal space between letters */
 }
 
 /* Small, consistent separation between words */
