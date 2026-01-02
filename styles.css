@@ -30,7 +30,7 @@ body {
   margin: 0;
   padding-bottom: 4px;     /* fine-tune vertical alignment */
   font-size: 6rem;
-  color: #fff;
+  color: #000;
 }
 
 /* Value bar below header */
