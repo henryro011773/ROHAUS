@@ -34,17 +34,12 @@ body {
   margin: 0;               /* remove default margin */
   padding: 0;              /* remove any padding */
   font-size: 8rem;         /* adjust size as needed */
+  line-height: 128px;          /* matches font size exactly */
   color: #000;
-
-  /* Remove extra vertical space from line box */
-  line-height: 1;          /* ensures highlight and spacing are tight */
 
   /* Fine-tune vertical alignment without moving logo */
   position: relative;
   top: 5px;                /* small nudge down; adjust as needed */
-
-  /* Gap below text to value bar */
-  padding-bottom: 10px;    /* keeps spacing consistent with logo */
 }
 
 /* Value bar below header */
