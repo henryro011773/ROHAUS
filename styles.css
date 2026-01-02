@@ -34,11 +34,7 @@ body {
   margin: 0;               /* remove default margin */
   font-size: 8rem;         /* adjust for desired size */
   color: #000;
-
-  /* Align bottom of text to logo while leaving small gap above value bar */
-  display: flex;
-  align-items: flex-end;  /* bottom-align inside flex box */
-  padding-top: 100px;   /* same gap as logo to value-bar */
+  padding-bottom: 10px;   /* same gap as logo to value-bar */
 }
 
 /* Value bar below header */
