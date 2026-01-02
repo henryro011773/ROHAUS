@@ -36,21 +36,14 @@ body {
 
 /* Value bar below header */
 .value-bar {
-  /*display: flex;
-  justify-content: space-between;
-  background-color: #222; change to your brand color
-  color: #fff;
-  padding: 12px 24px;
-  font-weight: bold;*/
-
   display: flex;
-  justify-content: space-between; /* words span full width */
+  justify-content: space-evenly; /* words span full width */
   width: 100%;
   padding: 14px 40px;
   background-color: #156082; /* adjust to your brand */
   color: #fff;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 3rem;
   box-sizing: border-box;
 }
 
