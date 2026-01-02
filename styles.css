@@ -27,9 +27,10 @@ body {
 .business-name {
   flex-grow: 1;            /* fill remaining width */
   text-align: right;       /* right-justify text */
+  font-weight: normal;     /* removes bold */
   margin: 0;
-  padding-bottom: 4px;     /* fine-tune vertical alignment */
-  font-size: 6rem;
+  padding-bottom: 0px;     /* fine-tune vertical alignment */
+  font-size: 8rem;
   color: #000;
 }
 
@@ -43,12 +44,13 @@ body {
   font-weight: bold;*/
 
   display: flex;
+  justify-content: space-between; /* words span full width */
   width: 100%;
   padding: 14px 40px;
   background-color: #156082; /* adjust to your brand */
   color: #fff;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
   box-sizing: border-box;
 }
 
@@ -56,13 +58,13 @@ body {
 .distributed-word {
   flex: 1;
   display: flex;
-  justify-content: space-between; /* distributes LETTERS */
-  text-align: center;
+  justify-content: space-evenly; /* letters spread */
+  white-space: nowrap;
 }
 
-/* Add separation between words */
+/* Small, consistent separation between words */
 .distributed-word:not(:last-child) {
-  margin-right: 60px; /* controls gap between words */
+  margin-right: 20px;
 }
 
 /* Optional: main content spacing */
