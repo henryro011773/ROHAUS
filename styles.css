@@ -28,8 +28,14 @@ body {
   flex-grow: 1;            /* fill remaining width */
   text-align: right;       /* right-justify text */
   font-weight: normal;     /* removes bold */
-  margin: 0;
-  padding-bottom: 60px;    /* fine-tune vertical alignment */
+
+
+  /* margin: 0;
+  padding-bottom: 60px;    fine-tune vertical alignment */
+
+
+  margin-top: 20px; /* pushes text down */
+  margin-bottom: 0; /* keep bottom aligned */
   font-size: 8rem;
   color: #000;
 }
