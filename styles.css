@@ -26,8 +26,8 @@ body {
 /* Business name takes remaining space */
 .business-name {
   flex-grow: 1;              /* take all remaining width */
-  font-size: 2em;            /* adjust size as needed */
-  color: #1a73e8;            /* change to match your logo color */
+  font-size: 10em;            /* adjust size as needed */
+  color: #156082;            /* change to match your logo color */
   margin: 0;
 }
 
