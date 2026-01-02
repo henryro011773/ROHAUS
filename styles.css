@@ -43,15 +43,26 @@ body {
   font-weight: bold;*/
 
   display: flex;
-  justify-content: space-between; /* spreads items across width */
-  align-items: center;
   width: 100%;
-  padding: 12px 40px;
-  background-color: #000; /* or your brand color */
-  color: #156082;
+  padding: 14px 40px;
+  background-color: #156082; /* adjust to your brand */
+  color: #fff;
   font-weight: bold;
-  letter-spacing: 0.2em; /* optional spacing between letters */
-  
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Each word gets equal space */
+.distributed-word {
+  flex: 1;
+  display: flex;
+  justify-content: space-between; /* distributes LETTERS */
+  text-align: center;
+}
+
+/* Add separation between words */
+.distributed-word:not(:last-child) {
+  margin-right: 60px; /* controls gap between words */
 }
 
 /* Optional: main content spacing */
