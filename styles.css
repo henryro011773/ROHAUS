@@ -34,7 +34,7 @@ body {
   padding-bottom: 60px;    fine-tune vertical alignment */
 
 
-  margin-top: 20px; /* pushes text down */
+  margin-top: 10px; /* pushes text down */
   margin-bottom: 0; /* keep bottom aligned */
   font-size: 8rem;
   color: #000;
